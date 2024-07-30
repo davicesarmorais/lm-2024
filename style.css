@@ -1,0 +1,62 @@
+body {
+    background-image: url("./bg.jpg");
+    color: #bebebe;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+}
+
+body > h1, h2 {
+    margin: 5px 0 5px 0;
+}
+
+body > h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+main h1 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+div {
+    border: 2px solid #bebebe;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    border: 2px solid #bebebe;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #bebebe;
+    text-decoration: none;
+    margin: 5px;
+    font-style: italic;
+    transition: ease 150ms;
+}
+
+nav a:hover {
+    background-color: #bebebe;
+    color: black;
+    transform: scale(1.05);
+}
+
+nav a:active {
+    transform: scale(1.1);
+}

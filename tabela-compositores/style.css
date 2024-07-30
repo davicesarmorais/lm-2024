@@ -1,0 +1,27 @@
+body {
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: rgb(67, 67, 82);
+    color: white;
+}
+
+tr:nth-child(2n) {
+    background-color: rgb(209, 209, 209);
+}
+
+
+table th {
+    text-align: left;
+    width: 250px;
+}
+
+table td, table th{
+    border: 1px solid black;
+    padding: 5px 10px;
+}

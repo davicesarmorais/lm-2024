@@ -1,0 +1,48 @@
+h2 {
+    background-color:lightskyblue;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+body {
+    color: darkslategrey;
+    font-size: 17px;
+    font-family: arial, sans-serif;
+}
+
+h1,h2,a,a:visited {
+    color: darkblue;
+    text-decoration: none;
+}
+
+
+#pessoa, #pessoa:visited {
+    color: white;
+}
+
+#copyright {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.link-subsjascente, .link-subsjascente:visited {
+    color: lightskyblue;
+}
+
+.link-subsjascente:hover, #pessoa:hover{
+    color: darkblue;
+}
+
+.text-center { 
+    text-align: center;
+}
+
+.redondo{
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+}
