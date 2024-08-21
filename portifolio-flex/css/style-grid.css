@@ -91,7 +91,19 @@ main {
 .services-container {
     display: grid;
     text-align: center;
-    grid-template-columns: repeat(3, calc(100%/3));
+}
+
+
+@media all and (min-width: 700px) {
+    .services-container {
+        grid-template-columns: repeat(2, calc(100%/2));
+    }    
+}
+
+@media all and (min-width: 1024px) {
+    .services-container {
+        grid-template-columns: repeat(3, calc(100%/3));
+    }    
 }
 
 .service {
@@ -132,14 +144,24 @@ footer {
 .footer-content {
     background-color:#e2e4ec;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
     padding: 40px 15% 60px;
 }
 
 .footer-items {
-    flex-basis: calc(100%/3);
     text-align: center;
 }
 
+@media all and (min-width: 800px) {
+    .footer-content {
+        flex-wrap: nowrap;
+    }
+    .footer-items {
+        flex-basis: calc(100%/3);
+    }
+}
 
 .footer-icons {
     margin-top: 40px;
